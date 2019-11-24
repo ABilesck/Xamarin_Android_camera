@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="#c1cdcd"
+        android:layout_weight="9"
+        android:id="@+id/imgvw1" />
+    <Button
+        android:text="Tirar nova foto"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCamera" />
+    <Button
+        android:text="Escolher foto da galeria"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGaleria"
+        android:clickable="true" />
+</LinearLayout>
